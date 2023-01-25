@@ -1,0 +1,15 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    gap: 2%;
+}
+
+.flex > div {
+    border: 1px solid black;
+    padding: 16px;
+    width: calc(96%/3);
+}
